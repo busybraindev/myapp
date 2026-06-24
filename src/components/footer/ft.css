@@ -1,0 +1,26 @@
+.ft{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+}
+.ft ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+@media (max-width:600px) {
+    .ft{
+        display: block;
+        text-align: center;
+    }
+    .ft ul li{
+        margin: 10px;
+    }
+    .ft ul{
+        margin-top: 10px;
+    }
+    
+}
